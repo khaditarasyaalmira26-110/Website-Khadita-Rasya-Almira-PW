@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style (2).css">
+
+</head>
+<body>
+    <form action="#">
+    
+    <fieldset>
+        <legend>Akun</legend>
+        <table>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="username" name="nama_pengguna" id="username"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="sandi" id="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="konfirmasi">Konfirmasi Password</label></td>
+                <td><input type="password" name="sandi" id="konfirmasi"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td><textarea id="alamat" name="alamat" rows="4" cols="50"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Data</legend>
+        <table>
+            <tr>
+                <td><label for="name">Nama</label></td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio" id="Pria" name="jenis_kelamin" value="Pria">
+                    <label for="Pria">Pria</label><br>
+                    <input type="radio" id="wanita" name="jenis_kelamin" value="wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="informasi">Informasi yang Disukai</label></td>
+                <td><label for="Makeup"><input type="checkbox" id="Makeup" name="informasi" value="Makeup">Makeup</label><br>
+                    <label for="travelling"><input type="checkbox" id="travelling" name="informasi" value="Travelling">Travelling</label><br>
+                    <label for="Membaca Buku"><input type="checkbox" id="Membaca Buku" name="informasi" value="Membaca Buku">Membaca Buku</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="jurusan">Pilih Jurusan</label></td>
+                <td>
+                    <select id="jurusan" name="jurusan">
+                        <option value="pilih">Pilih Jurusan</option>
+                        <optgroup Label="S1">
+                            <option value="S1 Ilmu Komputer">S1 Ilmu Komputer</option>
+                            <option value="S1 Teknologi Informasi">S1 Teknologi Informasi</option>
+                        </optgroup>
+                        <optgroup Label="S2">
+                            <option value="S2 Teknik Informatika">S2 Teknik Informatika</option>
+                            <option value="S2 Sains Data dan Kecerdasan Buatan">S2 Sains Data dan Kecerdasan Buatan</option>
+                        </optgroup>
+                        <optgroup Label="S3">
+                            <option value="S3 Ilmu Komputer">S3 Ilmu Komputer</option>
+                        </optgroup>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <button type="Submit" name="btn-submit">Submit</button>
+    <button type="reset" name="btn-reset">Reset</button>
+    </form>
+</body>
+</html>
