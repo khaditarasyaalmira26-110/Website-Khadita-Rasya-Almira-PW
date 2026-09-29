@@ -1,0 +1,107 @@
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    width: 90px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 5px;
+}
+
+.navbar .btn {
+    margin-left: 5px;
+}
+/* =========================
+   GAMBAR HERO
+========================= */
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+}
+/* =========================
+   CARD
+========================= */
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+/* =========================
+   RESPONSIVE HP
+========================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .btn {
+        margin: 5px 0;
+    }
+
+    /* Bagian hero */
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hero-img {
+        width: 60%;
+        max-width: 350px;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    /* Judul */
+    h1 {
+        font-size: 32px;
+    }
+
+    /* Card */
+    .card {
+        margin-bottom: 15px;
+    }
+}
+/* =========================
+   HP KECIL
+========================= */
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+    .logo {
+    width: 90px;
+    height: auto;
+}
+@media (max-width: 576px) {
+    .logo {
+        width: 90px;
+    }
